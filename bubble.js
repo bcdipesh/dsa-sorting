@@ -8,7 +8,7 @@ function bubbleSort(arr) {
       // If current element is greater that the next element
       // Swap places
       if (arr[j] > arr[j + 1]) {
-        let temp = arr[j];
+        const temp = arr[j];
         arr[j] = arr[j + 1];
         arr[j + 1] = temp;
         lastSwapped = true;
